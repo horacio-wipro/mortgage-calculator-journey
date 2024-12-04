@@ -3,25 +3,27 @@ import styles from "./Back.module.css";
 
 export type BackType = {
   className?: string;
-  iconRight?: boolean;
   text?: string;
+  iconRight?: boolean;
   sVG?: string;
   sVG1?: string;
+  onClick?: () => void;
 };
 
 const Back: FunctionComponent<BackType> = ({
   className = "",
-  iconRight = false,
   text = "Back",
+  iconRight = false,
   sVG,
   sVG1,
+  onClick,
 }) => {
   return (
-    <div className={[styles.back, className].join(" ")}>
-      <img className={styles.svgIcon} loading="lazy" alt="" src={sVG} />
-      <a className={styles.back1}>{text}</a>
-      {iconRight && <img className={styles.svgIcon1} alt="" src={sVG1} />}
-    </div>
+    <button className={[styles.back, className].join(" ")} onClick={onClick}>
+      {!iconRight && sVG && <img className={styles.icon} alt="" src={sVG} />}
+      <span>{text}</span>
+      {iconRight && sVG1 && <img className={styles.icon} alt="" src={sVG1} />}
+    </button>
   );
 };
 

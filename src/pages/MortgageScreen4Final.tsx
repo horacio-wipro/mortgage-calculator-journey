@@ -22,7 +22,7 @@ const MortgageScreen4Final: FunctionComponent = () => {
             iconRight={false}
             text="Back"
             sVG="/svg-2.svg"
-            sVG1="/svg2.svg"
+            onClick={() => navigate("/mortgage-screen-3-final")}
           />
           <Container1 />
           <div className={styles.backParent}>
@@ -30,7 +30,7 @@ const MortgageScreen4Final: FunctionComponent = () => {
               iconRight={false}
               text="Back"
               sVG="/svg-2.svg"
-              sVG1="/svg2.svg"
+              onClick={() => navigate("/mortgage-screen-3-final")}
             />
             <Button
               className={styles.button}

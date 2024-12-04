@@ -31,10 +31,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/":
-        title = "";
-        metaDescription = "";
-        break;
       case "/mortgage-screen-2-final":
         title = "";
         metaDescription = "";
@@ -76,12 +72,12 @@ function App() {
         element={<MortgageScreen2Final />}
       />
       <Route
-        path="/mortgage-screen-4-final"
-        element={<MortgageScreen4Final />}
-      />
-      <Route
         path="/mortgage-screen-3-final"
         element={<MortgageScreen3Final />}
+      />
+      <Route
+        path="/mortgage-screen-4-final"
+        element={<MortgageScreen4Final />}
       />
       <Route
         path="/mortgage-screen-5-final"

@@ -25,6 +25,8 @@
   gap: var(--item-spacing-xxs);
   text-align: left;
   font-size: var(--link-size);
+  background: none;
+  border: none;
   color: var(--color-spring-green-21);
   font-family: var(--link);
 }

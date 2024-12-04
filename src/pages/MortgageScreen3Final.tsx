@@ -22,10 +22,16 @@ const MortgageScreen3Final: FunctionComponent = () => {
             text="Back"
             sVG="/svg-2.svg"
             sVG1="/svg2.svg"
+            onClick={() => navigate("/mortgage-screen-2-final")}
           />
           <Container2 />
           <div className={styles.backParent}>
-            <Back iconRight text="Back" sVG="/svg-2.svg" sVG1="/svg2.svg" />
+            <Back
+              iconRight={false}
+              text="Back"
+              sVG="/svg-2.svg"
+              onClick={() => navigate("/mortgage-screen-2-final")}
+            />
             <Button
               className={styles.button}
               property1="Default"

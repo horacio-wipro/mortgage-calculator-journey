@@ -9,6 +9,26 @@
   src: url("/public/Lloyds Bank Jack Medium-normal-400-100.ttf");
   font-weight: 400;
 }
+@font-face {
+  font-family: "GT Ultra Median";
+  src: url("/public/GT-Ultra-Median-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "GT Ultra Median";
+  src: url("/public/GT-Ultra-Median-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "GT Ultra";
+  src: url("/public/GT-Ultra-Standard-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "GT Ultra";
+  src: url("/public/GT-Ultra-Standard-Bold.ttf");
+  font-weight: 700;
+}
 
 body {
   margin: 0;
@@ -41,6 +61,7 @@ body {
   --color-seagreen-100: #269173;
   --color-spring-green-21: #006a4d;
   --color-grey-31: #505050;
+  --mortgagessecurelloydsbankcouk-amaranth: #d92049;
   --mortgagessecurelloydsbankcouk-silver-chalice: #adadad;
   --line: #9a9a9a;
   --color-white-solid: #fff;
@@ -48,6 +69,8 @@ body {
   --color-spring-green-14: #024731;
   --mortgagessecurelloydsbankcouk-seashell: #f1f1f1;
   --mortgagessecurelloydsbankcouk-peppermint: #eef6e9;
+  --color-grey-93: #e6eef4;
+  --mortgagessecurelloydsbankcouk-tory-blue: #0d5595;
 
   /* Spacing */
   --width-100: 100px;
@@ -114,6 +137,7 @@ body {
   --padding-35xl: 54px;
   --padding-137xl: 156px;
   --padding-11xl: 30px;
+  --padding-101xl: 120px;
 
   /* Border radiuses */
   --br-91xl: 110px;

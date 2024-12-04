@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import { useNavigate } from "react-router-dom";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
 import FormQuestion from "../components/FormQuestion";
@@ -7,6 +8,12 @@ import TitleAndContent from "../components/TitleAndContent";
 import styles from "./MortgageScreen1Final.module.css";
 
 const MortgageScreen1Final: FunctionComponent = () => {
+  const navigate = useNavigate();
+
+  const handleContinue = () => {
+    navigate("/mortgage-screen-2-final");
+  };
+
   return (
     <div className={styles.mortgageScreen1Final}>
       <main className={styles.screen}>
@@ -44,7 +51,11 @@ const MortgageScreen1Final: FunctionComponent = () => {
                 </div>
               </div>
               <div className={styles.continueButton}>
-                <Button text="Continue" property1="Default" />
+                <Button
+                  text="Continue"
+                  property1="Default"
+                  onClick={handleContinue}
+                />
               </div>
             </div>
           </div>

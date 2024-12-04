@@ -1,15 +1,15 @@
 import { useEffect } from "react";
 import {
-  Routes,
   Route,
-  useNavigationType,
+  Routes,
   useLocation,
+  useNavigationType,
 } from "react-router-dom";
 import MortgageScreen1Final from "./pages/MortgageScreen1Final";
-import MortgageScreen5Final from "./pages/MortgageScreen5Final";
 import MortgageScreen2Final from "./pages/MortgageScreen2Final";
-import MortgageScreen4Final from "./pages/MortgageScreen4Final";
 import MortgageScreen3Final from "./pages/MortgageScreen3Final";
+import MortgageScreen4Final from "./pages/MortgageScreen4Final";
+import MortgageScreen5Final from "./pages/MortgageScreen5Final";
 
 function App() {
   const action = useNavigationType();
@@ -47,6 +47,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/mortgage-screen-5-final":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -66,7 +70,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<MortgageScreen1Final />} />
-      <Route path="/" element={<MortgageScreen5Final />} />
+
       <Route
         path="/mortgage-screen-2-final"
         element={<MortgageScreen2Final />}
@@ -78,6 +82,10 @@ function App() {
       <Route
         path="/mortgage-screen-3-final"
         element={<MortgageScreen3Final />}
+      />
+      <Route
+        path="/mortgage-screen-5-final"
+        element={<MortgageScreen5Final />}
       />
     </Routes>
   );

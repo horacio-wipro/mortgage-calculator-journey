@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import { useNavigate } from "react-router-dom";
 import Back from "../components/Back";
 import Button from "../components/Button";
 import Container1 from "../components/Container1";
@@ -7,6 +8,11 @@ import GloablNav from "../components/GloablNav";
 import styles from "./MortgageScreen4Final.module.css";
 
 const MortgageScreen4Final: FunctionComponent = () => {
+  const navigate = useNavigate();
+  const handleContinue = () => {
+    navigate("/mortgage-screen-5-final");
+  };
+
   return (
     <div className={styles.mortgageScreen4Final}>
       <main className={styles.container}>
@@ -26,7 +32,11 @@ const MortgageScreen4Final: FunctionComponent = () => {
               sVG="/svg-2.svg"
               sVG1="/svg2.svg"
             />
-            <Button className={styles.button} property1="Default" />
+            <Button
+              className={styles.button}
+              property1="Default"
+              onClick={handleContinue}
+            />
           </div>
         </section>
       </main>

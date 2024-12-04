@@ -1,0 +1,113 @@
+.gloablNav {
+  align-self: stretch;
+}
+.titleandcontent {
+  width: 100%;
+  max-width: var(--width-1020);
+  min-height: var(--height-1);
+}
+.container1 {
+  width: 100%;
+  border-bottom: 1px solid var(--line);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 38px;
+  gap: var(--gap-21xl);
+  max-width: 1020px;
+}
+.button {
+  width: 132px;
+  min-width: var(--width-100);
+}
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  min-width: 335px;
+  max-width: 100%;
+}
+.alertbox {
+  width: 392px;
+  max-width: 100%;
+}
+.mainParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 273px 0 120px;
+  box-sizing: border-box;
+  gap: 32px 26px;
+  max-width: 100%;
+}
+.container,
+.mortgageScreen2Final {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.mortgageScreen2Final {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#fff, #fff), #fff;
+  overflow-y: auto;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-45xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1025px) {
+  .titleandcontent {
+    max-width: var(--width-1020);
+  }
+  .container1 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 725px) {
+  .container1 {
+    gap: var(--gap-xl);
+  }
+  .main {
+    gap: var(--gap-base);
+  }
+  .mainParent {
+    padding-left: 60px;
+    padding-right: 136px;
+    box-sizing: border-box;
+  }
+  .container {
+    gap: var(--gap-base);
+  }
+  .mortgageScreen2Final {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .mainParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .mortgageScreen2Final {
+    gap: var(--gap-base);
+  }
+}

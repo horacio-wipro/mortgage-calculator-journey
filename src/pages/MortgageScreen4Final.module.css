@@ -1,0 +1,87 @@
+.gloablNav {
+  align-self: stretch;
+}
+.button {
+  min-width: var(--width-100);
+}
+.button:hover {
+  background-color: var(--color-seagreen-100);
+  border: 2px solid var(--color-seagreen-100);
+}
+.backParent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1020px;
+  gap: var(--gap-xl);
+}
+.button:hover,
+.main {
+  box-sizing: border-box;
+}
+.main {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-293xl) 0 var(--padding-89xl);
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.container,
+.main,
+.mortgageScreen4Final {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.mortgageScreen4Final {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#fff, #fff), #fff;
+  overflow-y: auto;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-45xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1025px) {
+  .backParent {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 725px) {
+  .main {
+    padding-left: var(--padding-35xl);
+    padding-right: var(--padding-137xl);
+    box-sizing: border-box;
+  }
+  .container,
+  .main {
+    gap: var(--gap-base);
+  }
+  .mortgageScreen4Final {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .backParent {
+    flex-wrap: wrap;
+  }
+  .main {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .mortgageScreen4Final {
+    gap: var(--gap-base);
+  }
+}

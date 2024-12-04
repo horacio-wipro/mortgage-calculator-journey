@@ -1,0 +1,30 @@
+.back1,
+.svgIcon {
+  position: relative;
+}
+.svgIcon {
+  height: 12px;
+  width: 12px;
+}
+.back1 {
+  text-decoration: underline;
+  line-height: 24px;
+  color: inherit;
+}
+.svgIcon1 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  object-fit: contain;
+}
+.back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--item-spacing-xxs);
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--color-spring-green-21);
+  font-family: var(--link);
+}

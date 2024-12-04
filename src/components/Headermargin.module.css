@@ -1,0 +1,16 @@
+.header,
+.headermargin {
+  align-self: stretch;
+  max-width: 100%;
+}
+.header {
+  min-height: var(--height-96);
+}
+.headermargin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-13xl);
+  box-sizing: border-box;
+}

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@font-face {
+  font-family: "Lloyds Bank Jack Web";
+  src: url("/public/Lloyds Bank Jack Web-normal-400-100.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lloyds Bank Jack";
+  src: url("/public/Lloyds Bank Jack Medium-normal-400-100.ttf");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --link: "Lloyds Bank Jack Web";
+  --mortgagessecurelloydsbankcouk-inter-bold-1575: Inter;
+  --font-lloyds-bank-jack: "Lloyds Bank Jack";
+
+  /* font sizes */
+  --mortgagessecurelloydsbankcouk-inter-bold-18-size: 18px;
+  --mortgagessecurelloydsbankcouk-inter-bold-1575-size: 15.8px;
+  --mortgagessecurelloydsbankcouk-semantic-link-size: 15.5px;
+  --mortgagessecurelloydsbankcouk-semantic-heading-3-size: 27.6px;
+  --font-size-3xl: 22px;
+  --mortgagessecurelloydsbankcouk-inter-bold-1533-size: 15.3px;
+  --mortgagessecurelloydsbankcouk-semantic-label-size: 15.2px;
+  --mortgagessecurelloydsbankcouk-inter-regular-1561-size: 15.6px;
+  --mortgagessecurelloydsbankcouk-semantic-heading-31-size: 27.1px;
+  --mortgagessecurelloydsbankcouk-inter-bold-1844-size: 18.4px;
+  --mortgagessecurelloydsbankcouk-inter-bold-1766-size: 17.7px;
+  --mortgagessecurelloydsbankcouk-semantic-label1-size: 15.9px;
+  --mortgagessecurelloydsbankcouk-inter-regular-2725-size: 27.3px;
+  --mortgagessecurelloydsbankcouk-inter-regular-275-size: 27.5px;
+  --link-size: 16px;
+
+  /* Colors */
+  --color-seagreen-100: #269173;
+  --color-spring-green-21: #006a4d;
+  --color-grey-31: #505050;
+  --mortgagessecurelloydsbankcouk-silver-chalice: #adadad;
+  --line: #9a9a9a;
+  --color-white-solid: #fff;
+  --mortgagessecurelloydsbankcouk-shark: #323233;
+  --color-spring-green-14: #024731;
+  --mortgagessecurelloydsbankcouk-seashell: #f1f1f1;
+  --mortgagessecurelloydsbankcouk-peppermint: #eef6e9;
+
+  /* Spacing */
+  --width-100: 100px;
+  --item-spacing-xxs: 4px;
+  --item-spacing-s: 16px;
+  --width-510: 510px;
+  --height-1: 1px;
+  --width-1020: 1020px;
+  --line-height-24: 24px;
+  --height-900: 900px;
+  --width-1248: 1248px;
+  --height-11: 1px;
+  --item-spacing-s1: 16px;
+  --width-816: 816.0004272460938px;
+  --width-1001: 100px;
+  --item-spacing-s2: 24px;
+  --width-1224: 1224px;
+  --width-1176: 1176px;
+  --item-spacing-xxs1: 4px;
+  --width-846: 846px;
+  --width-336: 336px;
+  --item-spacing-xs: 8px;
+  --item-spacing-12: -12px;
+  --item-spacing-121: 12px;
+  --width-612: 612px;
+  --height-96: 96px;
+  --height-48: 48px;
+
+  /* Gaps */
+  --gap-45xl: 64px;
+  --gap-base: 16px;
+  --gap-13xl: 32px;
+  --gap-21xl: 40px;
+  --gap-xl: 20px;
+  --gap-5xl: 24px;
+  --gap-9xs: 4px;
+  --gap-xs: 12px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-13xl: 32px;
+  --padding-5xl: 24px;
+  --padding-xs: 12px;
+  --padding-21xl: 40px;
+  --padding-4xl: 23px;
+  --padding-5xs: 8px;
+  --padding-7xs: 6px;
+  --padding-3xs: 10px;
+  --padding-mid: 17px;
+  --padding-mini: 15px;
+  --padding-sm: 14px;
+  --padding-7xl-5: 26.5px;
+  --padding-7xl: 26px;
+  --padding-2xs: 11px;
+  --padding-base: 16px;
+  --padding-338xl: 357px;
+  --padding-70xl: 89px;
+  --padding-159xl: 178px;
+  --padding-11xs: 2px;
+  --padding-6xs: 7px;
+  --padding-293xl: 312px;
+  --padding-89xl: 108px;
+  --padding-35xl: 54px;
+  --padding-137xl: 156px;
+  --padding-11xl: 30px;
+
+  /* Border radiuses */
+  --br-91xl: 110px;
+  --br-62xl: 81px;
+}

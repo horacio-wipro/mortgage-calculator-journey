@@ -1,0 +1,88 @@
+.svgIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) 0;
+}
+.back {
+  text-decoration: underline;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+}
+.link {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--item-spacing-xxs1);
+}
+.container1,
+.link,
+.link1 {
+  display: flex;
+  align-items: flex-start;
+}
+.container1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  min-width: 335px;
+  max-width: var(--width-612);
+  min-height: var(--height-11);
+}
+.link1 {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.container,
+.container3,
+.containerWrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.container3 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 var(--padding-xs);
+  min-width: 335px;
+  max-width: var(--width-612);
+  min-height: var(--height-11);
+  margin-left: -6px;
+  text-align: right;
+  font-size: var(--mortgagessecurelloydsbankcouk-inter-bold-1575-size);
+}
+.container,
+.containerWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.container {
+  flex: 1;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+}
+.containerWrapper {
+  align-self: stretch;
+  padding: 0 0 var(--padding-13xl);
+  text-align: left;
+  font-size: var(--mortgagessecurelloydsbankcouk-inter-bold-1533-size);
+  color: var(--color-spring-green-21);
+  font-family: var(--mortgagessecurelloydsbankcouk-inter-bold-1575);
+}
+@media screen and (max-width: 750px) {
+  .container1,
+  .container3 {
+    max-width: var(--width-612);
+  }
+}

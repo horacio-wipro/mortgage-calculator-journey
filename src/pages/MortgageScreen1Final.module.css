@@ -1,0 +1,153 @@
+.gloablNav {
+  align-self: stretch;
+}
+.titleandcontent {
+  flex: 1;
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0;
+  max-width: 1020px;
+  min-height: 600px;
+}
+.formquestion {
+  width: 100%;
+  max-width: var(--width-510);
+  min-height: var(--height-1);
+}
+.forHowWe,
+.fullPrivacyNotice {
+  position: relative;
+  line-height: 24px;
+}
+.forHowWe {
+  display: inline-block;
+  max-width: 100%;
+}
+.fullPrivacyNotice {
+  color: var(--color-spring-green-21);
+}
+.mortgageForm,
+.privacyInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.privacyInfo {
+  flex-direction: row;
+  row-gap: 20px;
+}
+.mortgageForm {
+  width: 515.5px;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.button {
+  min-width: var(--width-100);
+}
+.button:hover {
+  background-color: var(--color-seagreen-100);
+  border: 2px solid var(--color-seagreen-100);
+  box-sizing: border-box;
+}
+.continueButton {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1020px;
+}
+.containerParent,
+.existingMortgageMessage,
+.screenInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.existingMortgageMessage {
+  align-self: stretch;
+  gap: var(--gap-45xl);
+  margin-top: -284px;
+}
+.containerParent,
+.screenInner {
+  width: 1020px;
+}
+.screenInner {
+  width: 1236px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--mortgagessecurelloydsbankcouk-inter-bold-18-size);
+  color: var(--color-grey-31);
+  font-family: var(--link);
+}
+.mortgageScreen1Final,
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.screen {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.mortgageScreen1Final {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#fff, #fff), #fff;
+  overflow-y: auto;
+  gap: var(--gap-45xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1025px) {
+  .container,
+  .continueButton {
+    max-width: 100%;
+  }
+  .existingMortgageMessage {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .formquestion {
+    max-width: var(--width-510);
+  }
+  .privacyInfo {
+    flex-wrap: wrap;
+  }
+  .mortgageForm {
+    gap: var(--gap-xl);
+  }
+  .existingMortgageMessage {
+    gap: 28px;
+  }
+  .screen {
+    gap: var(--gap-base);
+  }
+  .mortgageScreen1Final {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .mortgageScreen1Final {
+    gap: var(--gap-base);
+  }
+}

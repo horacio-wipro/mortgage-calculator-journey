@@ -1,0 +1,44 @@
+.continue {
+  position: relative;
+  font-size: var(--mortgagessecurelloydsbankcouk-inter-bold-18-size);
+  line-height: 24px;
+  font-family: var(--heading-3);
+  color: var(--color-white-solid);
+  text-align: center;
+}
+.chevronIcon {
+  width: 12px;
+  position: relative;
+  height: 12px;
+}
+.root {
+  cursor: pointer;
+  border: 2px solid var(--color-spring-green-21);
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--color-spring-green-21);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--item-spacing-xxs);
+  min-width: var(--width-100);
+}
+.root[data-property1="Secondary"] {
+  background-color: transparent;
+  gap: unset;
+  z-index: 2;
+}
+.root[data-property1="Secondary"] .continue {
+  color: var(--color-spring-green-21);
+}
+.root[data-property1="Secondary"] .chevronIcon {
+  margin: 0;
+}
+.root:hover .continue {
+  text-decoration: underline;
+}
+.root:active {
+  background-color: var(--mortgagessecurelloydsbankcouk-tory-blue);
+  border-color: var(--mortgagessecurelloydsbankcouk-tory-blue);
+}

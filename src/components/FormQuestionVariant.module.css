@@ -1,0 +1,23 @@
+.alert {
+  align-self: stretch;
+}
+.selection1 {
+  min-height: var(--height-48);
+}
+.formquestionvariant1,
+.selection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.selection {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-xs);
+}
+.formquestionvariant1 {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}

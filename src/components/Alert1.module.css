@@ -1,0 +1,21 @@
+.svgIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.alert1 {
+  position: relative;
+  line-height: 24px;
+}
+.alert {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--mortgagessecurelloydsbankcouk-inter-regular-1533-size);
+  color: var(--mortgagessecurelloydsbankcouk-amaranth);
+  font-family: var(--mortgagessecurelloydsbankcouk-inter-regular-1533);
+}

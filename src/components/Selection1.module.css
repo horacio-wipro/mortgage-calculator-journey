@@ -1,0 +1,35 @@
+.root,
+.selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selection {
+  height: 24px;
+  position: relative;
+  font-size: var(--mortgagessecurelloydsbankcouk-inter-bold-18-size);
+  line-height: 24px;
+  font-family: var(--heading-3);
+  color: var(--color-spring-green-21);
+  text-align: center;
+}
+.root {
+  cursor: pointer;
+  border: 1px solid var(--color-grey-31);
+  padding: var(--padding-xs) var(--padding-21xl);
+  background-color: var(--color-white-solid);
+  height: 48px;
+  box-sizing: border-box;
+  flex-direction: row;
+  min-height: var(--height-48);
+  width: 100%;
+}
+.root[data-button-state="Error"] {
+  border: 1px solid var(--mortgagessecurelloydsbankcouk-amaranth);
+}
+.root[data-selected="true"] {
+  background-color: var(--color-spring-green-21);
+}
+.root[data-selected="true"] .selection {
+  color: var(--color-white-solid);
+}

@@ -6,9 +6,6 @@
   max-width: 100%;
 }
 .container {
-  width: 100%;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -47,9 +44,12 @@
   row-gap: 20px;
 }
 .mortgageForm {
-  width: 515.5px;
+  width: 100%;
   flex-direction: column;
   gap: var(--gap-21xl);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: var(--padding-13xl);
+  max-width: 1020px;
 }
 .button {
   min-width: var(--width-100);

@@ -30,7 +30,7 @@ const MortgageScreen1Final: FunctionComponent = () => {
                   questions={[
                     "I want to buy a home",
                     "Move my mortgage to Lloyds Bank",
-                    "Discuss Bu to Let mortgages",
+                    "Discuss Buy to Let mortgages",
                   ]}
                   error="Let us know if you are employed"
                 />
@@ -44,11 +44,7 @@ const MortgageScreen1Final: FunctionComponent = () => {
                 </div>
               </div>
               <div className={styles.continueButton}>
-                <Button
-                  className={styles.button}
-                  text="Continue"
-                  property1="Default"
-                />
+                <Button text="Continue" property1="Default" />
               </div>
             </div>
           </div>

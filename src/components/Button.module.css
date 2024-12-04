@@ -42,3 +42,10 @@
   background-color: var(--mortgagessecurelloydsbankcouk-tory-blue);
   border-color: var(--mortgagessecurelloydsbankcouk-tory-blue);
 }
+.root[data-property1="Secondary"]:active {
+  background-color: var(--mortgagessecurelloydsbankcouk-tory-blue);
+  border-color: var(--mortgagessecurelloydsbankcouk-tory-blue);
+}
+.root[data-property1="Secondary"]:active .continue {
+  color: var(--color-white-solid);
+}

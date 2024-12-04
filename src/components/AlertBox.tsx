@@ -47,7 +47,11 @@ const AlertBox: FunctionComponent<AlertBoxType> = ({
             <p className={styles.paragraph}>{tertiaryContent}</p>
           )}
           {showButton && (
-            <Button text="Start Agreement in Principle" property1="Secondary" />
+            <Button
+              text="Start Agreement in Principle"
+              property1="Secondary"
+              showIcon={false}
+            />
           )}
         </div>
       </div>

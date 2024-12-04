@@ -50,9 +50,9 @@ const MortgageScreen2Final: FunctionComponent = () => {
           </div>
           <AlertBox
             className={styles.alertbox}
-            primaryContent="The first step towards buying your home is getting an Agreement in Principle (AIP).
-This will give you an idea of how much you could borrow before you apply for a mortgage with no impact to your credit score.
-It should take around 15 mins to complete."
+            primaryContent="The first step towards buying your home is getting an Agreement in Principle (AIP)."
+            secondaryContent="This will give you an idea of how much you could borrow before you apply for a mortgage with no impact to your credit score."
+            tertiaryContent="It should take around 15 mins to complete."
             icon="https://d1xzdqg8s8ggsr.cloudfront.net/2nshCpwTDuJzEeiStSS3PUUTOG6/360585b8-2ddf-4e7e-b750-411b9b563d93_1732706002259317820?Expires=-62135596800&Signature=kSgYIvYh1mm9ZdoS0lHhS7KQ-nYWCNksrmm6yR8s2EO-EB1Ui~h-pxcWC0ipcNeP0E56Wy593snlFV1HxxSbVQu8BIWrXa85n7RWmXQLLhdIEBZ3bdpruLaV0Noh7IxdreSe1FHkZ14WclLrNtWBQYDCY6rolsjCsF6Jt9Yj6FgYcmV~eWbE-4ZvSRTiwkTTSzwQYbAam5GWAdb-Y8CuwXAR-2dda0fBgpxHLC-7FLZosxbQaoOhcysWsCzZTwk~xg-Mlk3fpXb51F7eeLb12oyyuDYjd3ZvIhRedLxjqzpv5jBnsLDha2Cxh8KRVy6arSJ5JSBBaWRy9VaIueN-Kw__&Key-Pair-Id=K1P54FZWCHCL6J"
             heading="Already done your sums?"
           />

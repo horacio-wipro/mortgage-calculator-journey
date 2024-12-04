@@ -25,7 +25,7 @@ const Alert1: FunctionComponent<Alert1Type> = ({
 
   return (
     <div className={[styles.alert, className].join(" ")} style={alertStyle}>
-      <img className={styles.svgIcon} loading="lazy" alt="" src="/svg-3.svg" />
+      <img className={styles.svgIcon} loading="lazy" alt="" src="/svg1.svg" />
       <div className={styles.alert1}>{text}</div>
     </div>
   );

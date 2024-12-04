@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
@@ -8,11 +8,11 @@ import TitleAndContent from "../components/TitleAndContent";
 import styles from "./MortgageScreen1Final.module.css";
 
 const MortgageScreen1Final: FunctionComponent = () => {
-  const navigate = useNavigate();
+  const [formQuestion, setFormQuestion] = useState<string | null>(null);
+  const [valid, setValid] = useState(false);
+  const [hasSubmitted, setHasSubmitted] = useState(false);
 
-  const handleContinue = () => {
-    navigate("/mortgage-screen-2-final");
-  };
+  const navigate = useNavigate();
 
   return (
     <div className={styles.mortgageScreen1Final}>
@@ -40,6 +40,12 @@ const MortgageScreen1Final: FunctionComponent = () => {
                     "Discuss Buy to Let mortgages",
                   ]}
                   error="Let us know if you are employed"
+                  isError={!valid && hasSubmitted}
+                  onPress={(question) => {
+                    setFormQuestion(question);
+                    setValid(true);
+                    console.log("FormQuestion clicked:", question);
+                  }}
                 />
                 <div className={styles.privacyInfo}>
                   <div
@@ -54,7 +60,17 @@ const MortgageScreen1Final: FunctionComponent = () => {
                 <Button
                   text="Continue"
                   property1="Default"
-                  onClick={handleContinue}
+                  onClick={() => {
+                    setHasSubmitted(true);
+                    if (valid) {
+                      navigate("/mortgage-screen-2-final");
+                    }
+                    console.log(
+                      "Button clicked:",
+                      formQuestion,
+                      valid ? "Valid" : "Invalid"
+                    );
+                  }}
                 />
               </div>
             </div>

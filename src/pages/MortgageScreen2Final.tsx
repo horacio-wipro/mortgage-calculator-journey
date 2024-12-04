@@ -1,10 +1,10 @@
 import { FunctionComponent } from "react";
-import GloablNav from "./GloablNav";
-import TitleAndContent from "./TitleAndContent";
-import FormQuestion from "./FormQuestion";
-import Button from "./Button";
-import AlertBox from "./AlertBox";
+import AlertBox from "../components/AlertBox";
+import Button from "../components/Button";
 import Footer from "../components/Footer";
+import FormQuestion from "../components/FormQuestion";
+import GloablNav from "../components/GloablNav";
+import TitleAndContent from "../components/TitleAndContent";
 import styles from "./MortgageScreen2Final.module.css";
 
 const MortgageScreen2Final: FunctionComponent = () => {

@@ -1,9 +1,9 @@
 import { FunctionComponent } from "react";
-import GloablNav from "./GloablNav";
-import Button from "./Button";
-import Footer from "../components/Footer";
 import Back from "../components/Back";
+import Button from "../components/Button";
 import Container1 from "../components/Container1";
+import Footer from "../components/Footer";
+import GloablNav from "../components/GloablNav";
 import styles from "./MortgageScreen4Final.module.css";
 
 const MortgageScreen4Final: FunctionComponent = () => {
@@ -26,7 +26,7 @@ const MortgageScreen4Final: FunctionComponent = () => {
               sVG="/svg-2.svg"
               sVG1="/svg2.svg"
             />
-            <Button className={styles.button} property1="" />
+            <Button className={styles.button} property1="Default" />
           </div>
         </section>
       </main>

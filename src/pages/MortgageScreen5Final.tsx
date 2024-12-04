@@ -1,9 +1,9 @@
 import { FunctionComponent } from "react";
-import Button from "./Button";
-import Footer from "./Footer";
-import Headermargin from "../components/Headermargin";
-import FrameComponent from "../components/FrameComponent";
+import Button from "../components/Button";
 import Container from "../components/Container";
+import Footer from "../components/Footer";
+import FrameComponent from "../components/FrameComponent";
+import Headermargin from "../components/Headermargin";
 import styles from "./MortgageScreen5Final.module.css";
 
 const MortgageScreen5Final: FunctionComponent = () => {

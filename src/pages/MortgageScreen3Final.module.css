@@ -53,6 +53,17 @@
   line-height: normal;
   letter-spacing: normal;
 }
+
+.formquestion {
+  width: 100%;
+  max-width: var(--width-510);
+}
+.horizontalRule {
+  width: 100%;
+  border: none;
+  border-top: 1px solid var(--color-grey-31); /* Use a color variable */
+}
+
 @media screen and (max-width: 1050px) {
   .backParent {
     max-width: 100%;
